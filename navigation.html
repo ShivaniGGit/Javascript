@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Blog</title>
+  <meta name="description" content="My Blog">
+  <meta name="author" content="Blog">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="js/app.js"></script>
+</head>
+<body>
+    <script>
+        window.addEventListener('load', () => {
+            debugger;
+            let sectionHtmlList = [];
+            sectionList.map((item) => {
+                //success responsive 
+                let sectionHtml = `<div class="post-item" id=${item.id}><div><img class="image-post" src=${item.image} alt="post" /><figcaption${item.caption}</figcaption></div><div class="post-content"><h2>${item.heading}</h2><p>${item.detail}</p><a href=${item.readMoreLink}>${item.ReadMoreText}</a></div></div>`;
+                sectionHtmlList.push(sectionHtml);
+            });
+            debugger;
+            document.querySelector('.item-main').innerHTML = sectionHtmlList;
+        });
+    </script>
+  <header>
+    <div class="grid-container">
+        <div class="item-logo">
+            <h1><img src="images/logo.png" alt="Logo"><figcaption>my Blog</figcaption></h1>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#blog1">Blog 1</a></li>
+                <li><a href="#blog2">Blog 2</a></li>
+                <li><a href="#blog3">Blog 3</a></li>
+                <li><a href="#blog4">Blog 4</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+  <section class="banner">
+    <img src="images/blog_banner.jpg" alt="dummy banner" />
+    <figcaption>Blog Banner</figcaption>
+  </section>
+  <section class="main-content">
+    <div class="grid-container">
+        <div class="item-main"></div>
+        <div class="post-side">
+            <h3>About Us</h3>
+            <img class="profile-pic" src="images/prfile-pic.png" alt="profile" />
+            <figcaption>Profile pic image</figcaption>
+            <p>Contrary to popular belief, <b><em>Lorem Ipsum is not simply random text.</em></b> It has roots in a piece of classical Latin literature from <b>45 BC....</b></p>
+        
+            Follow us on <br/>
+            <a href="https://twitter.com/">Twitter</a>, <a href="https://www.facebook.com/">Facebook</a> & <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+    </div>
+  </section>
+  <footer class="footer-sec">
+    Copyright &copy; 2023
+  </footer>
+</body>
+</html>

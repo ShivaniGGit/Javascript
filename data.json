@@ -1,0 +1,38 @@
+const sectionList = [
+    {
+        id:'blog1',
+        image:'images/blog-post-1.jpg',
+        caption:'Blog 1',
+        heading:'Handful of model sentence structures',
+        detail:'Contrary to popular belief, <b><em>Lorem Ipsum is not simply random text.</em></b> It has roots in a piece of classical Latin literature from <b>45 BC....</b>',
+        readMoreLink:'blog-detailed.html',
+        ReadMoreText:'Read More'
+    },
+    {
+        id:'blog2',
+        image:'images/blog-post-2.jpg',
+        caption:'Blog 2',
+        heading:'Handful of model sentence structures',
+        detail:'Contrary to popular belief, <b><em>Lorem Ipsum is not simply random text.</em></b> It has roots in a piece of classical Latin literature from <b>45 BC....</b>',
+        readMoreLink:'blog-detailed.html',
+        ReadMoreText:'Read More'
+    },
+    {
+        id:'blog3',
+        image:'images/blog-post-3.jpg',
+        caption:'Blog 3',
+        heading:'Handful of model sentence structures',
+        detail:'Contrary to popular belief, <b><em>Lorem Ipsum is not simply random text.</em></b> It has roots in a piece of classical Latin literature from <b>45 BC....</b>',
+        readMoreLink:'blog-detailed.html',
+        ReadMoreText:'Read More'
+    },
+    {
+        id:'blog4',
+        image:'images/blog-post-4.jpg',
+        caption:'Blog 4',
+        heading:'Handful of model sentence structures',
+        detail:'Contrary to popular belief, <b><em>Lorem Ipsum is not simply random text.</em></b> It has roots in a piece of classical Latin literature from <b>45 BC....</b>',
+        readMoreLink:'blog-detailed.html',
+        ReadMoreText:'Read More'
+    }
+]
